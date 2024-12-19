@@ -1,11 +1,11 @@
 import React from 'react';
 
-type authProps = {
+type AuthPageProps = {
     
 };
 
-const auth:React.FC<authProps> = () => {
+const AuthPage:React.FC<AuthPageProps> = () => {
     
-    return <div>Have a good coding</div>
+    return <div>AuthPage Page</div>
 }
-export default auth;
+export default AuthPage;
