@@ -6,7 +6,9 @@ type testpageProps = {
 
 const testpage:React.FC<testpageProps> = () => {
     
-    return <p color='brand-orange'>  THIS IS SOME TEXT</p>
+    return <div style={{ color: 'blue' }}>
+    This text is blue.
+  </div>
 
 }
 export default testpage;
