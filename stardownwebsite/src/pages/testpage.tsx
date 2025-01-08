@@ -6,7 +6,7 @@ type testpageProps = {
 
 const testpage:React.FC<testpageProps> = () => {
     
-    return <img src="/stardownlogo.png" alt="StarDown Logo" />;
+    return <p color='brand-orange'>  THIS IS SOME TEXT</p>
 
 }
 export default testpage;
