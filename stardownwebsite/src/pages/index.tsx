@@ -33,8 +33,11 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly.
+          </li>
         </ol>
+
+
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -61,6 +64,8 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+        
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
@@ -108,6 +113,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+      
       </footer>
     </div>
   );
