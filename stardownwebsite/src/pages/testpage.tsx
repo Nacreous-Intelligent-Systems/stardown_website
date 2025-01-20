@@ -7,7 +7,7 @@ type testpageProps = {
 
 const testpage:React.FC<testpageProps> = () => {
     
-    return <div style={{ color: 'brand-orange-s' }}>
+    return <div style={{ color: 'blue' }}>
     This text is blue.
   </div>
 
