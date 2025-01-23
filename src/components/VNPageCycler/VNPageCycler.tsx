@@ -10,7 +10,7 @@ type VNPageCyclerProps = {};
         const totalPages = 12; // Update this to the total number of pages in the "visual-novel" folder
       
         const getVNPage = () => {
-          return `/visual-novel/page${currentPage}`;
+          return `/visualnovel/page${currentPage}`;
         };
       
         const prevVNPage = () => {
