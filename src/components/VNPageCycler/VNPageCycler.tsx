@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -29,7 +29,7 @@ type VNPageCyclerProps = {};
 
 
     return (
-        <div>
+        <div className='flex flex-row justify-between'>
             <button className='' onClick={prevVNPage}> Prev </button>
             <button className='' onClick={nextVNPage}> Next </button>
         </div>
