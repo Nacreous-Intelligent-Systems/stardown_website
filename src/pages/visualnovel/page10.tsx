@@ -6,6 +6,6 @@ type page10Props = {
 
 const page10:React.FC<page10Props> = () => {
     
-    return <div>Have a good coding</div>
+    return <div>page10</div>
 }
 export default page10;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-type VisualNovelProps = {
+type indexProps = {
     
 };
 
-const index:React.FC<VisualNovelProps> = () => {
+const index:React.FC<indexProps> = () => {
     
     return <div>Temp Splash Page</div>
 }
-export default VisualNovelProps;
+export default indexProps;
