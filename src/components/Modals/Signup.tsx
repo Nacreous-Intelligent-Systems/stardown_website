@@ -21,13 +21,11 @@ const Signup:React.FC<SignupProps> = () => {
         <input type='password' name="password" id='password' className='border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-600 border-gray-500 placeholder-gray-400 text-white' placeholder='*********' />
     </div>
     <button type='submit' className='w-full bg-blue-500 text-white rounded-lg p-2.5 text-sm font-medium'>
-        Sign in
+        Register
     </button>
-    <button className='flex w-full justify-end'>
-        <a className='text-sm w-full font-medium text-blue-500 hover:underline text-right'>Forgot password?</a>
-    </button>
+    
     <div className='text-sm font-medium text-gray-300'>
-        Not Registered? {" "} <a href="#" className='text-sm font-medium text-blue-500 hover:underline'>Create account</a>
+        Already have an account? {" "} <a href="#" className='text-sm font-medium text-blue-500 hover:underline'>Sign In</a>
     </div>
 </form>
 }
