@@ -9,8 +9,10 @@ const page1: React.FC<page1Props> = () => {
 
     return (
             <div>
-                <VNPageCycler />
-            </div>
+                    <h1>Page 1</h1>
+                    <img src="/Placeholder_nobackground.jpg" alt="Page 2" />
+                    <VNPageCycler />
+                </div>
     );
 }
 export default page1;

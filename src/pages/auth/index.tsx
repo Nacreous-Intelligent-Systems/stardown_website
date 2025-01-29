@@ -12,7 +12,7 @@ const AuthPage: React.FC<AuthPageProps> = () => {
         <div className='max-w-7xl mx-auto'>
             <Navbar />
             <div className='flex items-center justify-center h-[calc(100vh-5rem)] pointer-events-none select-none'>
-                <img src='/hero1.png' alt='Hero img'/>
+                <img src='/Placeholder_nobackground.jpg' alt='Hero img hero1.png'/>
             </div>
                 <AuthModal />
         </div>
