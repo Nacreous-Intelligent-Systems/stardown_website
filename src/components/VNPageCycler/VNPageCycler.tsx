@@ -7,7 +7,7 @@ type VNPageCyclerProps = {};
     const VNPageCycler: React.FC<VNPageCyclerProps> = () => {
         const router = useRouter();
         const [currentPage, setCurrentPage] = useState(1);
-        const totalPages = 13; // Update this to the total number of pages in the "visualnovel" folder
+        const totalPages = 12; // Update this to the total number of pages in the "visualnovel" folder
       
         const getVNPage = () => {
           return `/visualnovel/page${currentPage}`;
