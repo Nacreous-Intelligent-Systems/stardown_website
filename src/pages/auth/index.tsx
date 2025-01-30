@@ -2,6 +2,8 @@ import { authModalState } from "@/atoms/authModalAtom";
 import AuthModal from "@/components/Modals/AuthModal";
 import Navbar from "@/components/Navbar/Navbar";
 import { useRecoilValue } from "recoil";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "@/firebase/clientApp";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
